@@ -1,0 +1,9 @@
+--- !ruby/object:Batch
+    base_path: "/mnt/Data4/working_directory/garan/pipeline_validation"
+    java_path: "/usr/share/java-1.8.0/jdk1.8.0_92/bin/java"
+    picard_path: "/usr/share/picard/picard-tools-2.5.0"
+    tmp_path: "/mnt/Data3/tmp"
+    biomart_url: "http://grch37.ensembl.org/biomart"
+    reference_path: "/mnt/Data1/resources/human_g1k_v37.fasta"
+    #reference_path: "/mnt/Data1/resources/ucsc.hg19.no_contigs.fasta" 
+    overall_metric_line: 8
