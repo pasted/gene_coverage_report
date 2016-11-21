@@ -1,8 +1,16 @@
 # gene_coverage_report
 Small application to demostrate Biomart, Bio-SamTools (ruby wrapper around Samtools) and graphs
 
-ruby gene_coverage_report.rb -h
+First clone the repo into a suitable local directory, then run `bundle install` - this will install the dependencies including a verison of bio-samtools.
 
+```
+git clone git@github.com:pasted/gene_coverage_report.git
+bundle install
+```
+
+```
+ruby gene_coverage_report.rb -h
+```
 ```
 Options:
   -g, --genes=<s+>            Valid HGVS gene symbols - multiple symbols separated by a space.
